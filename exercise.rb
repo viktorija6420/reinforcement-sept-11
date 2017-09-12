@@ -30,7 +30,9 @@ p new_array = hash["tracks"]
     h.each do |k,v|
     if k == "duration_in_milliseconds"
       total += v.to_i
-      p total
   end
  end
 end
+
+duration = total
+p duration
